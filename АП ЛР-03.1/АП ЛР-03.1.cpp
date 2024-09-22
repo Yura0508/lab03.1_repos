@@ -16,6 +16,8 @@ int main()
 
     cout << "x = "; cin >> x;
     A = x * x * sin(x / 2);
+
+    
     if (x <= -5) {
         B = atan(exp(x));
     }
@@ -26,18 +28,17 @@ int main()
         B = log(fabs(x)) - x / 5;
     }
  
-    /*
-
+    
+/*
     if (x <= -5) {
         B = atan(exp(x));
     } else 
         if (x > -5 && x <= 0) {
         B = 1 + pow(x, 3) / 4;
         } else
-            if (x > 0) {
-            B = log(fabs(x)) - x / 5;}
-
-    */
+             {B = log(fabs(x)) - x / 5;}
+             */
+    
 
     y = A + B;
     
